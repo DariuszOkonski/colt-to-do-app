@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/colt-to-do-app/precache-manifest.6f5cfb89d9aa1325ef03873851962ddd.js"
+  "/colt-to-do-app/precache-manifest.c72e4596548f099a8abcd80e4bb337db.js"
 );
 
 self.addEventListener('message', (event) => {
