@@ -66,12 +66,12 @@ class TodoList extends Component {
     })
 
     return (
-      <div>
-        <h1>Todo List!</h1>
-        <NewToDoForm createToDo={this.create} />
+      <div className="TodoList">
+        <h1>Todo List! <span>A Simple React Todo List App.</span></h1>
         <ul>
           {todos}
         </ul>
+        <NewToDoForm createToDo={this.create} />
       </div>
     );
   }
